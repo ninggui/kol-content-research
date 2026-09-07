@@ -1,54 +1,44 @@
-# kol-content-research
+# KOL 深度内容研究
 
-KOL 深度内容研究：定位账号 → 全量拉取 → 内涵提炼（观点/方法论）。**只学内涵，不学语言风格**。
+![GitHub stars](https://img.shields.io/github/stars/ninggui/kol-content-research)
+![License](https://img.shields.io/github/license/ninggui/kol-content-research)
+[![SkillHub](https://img.shields.io/badge/SkillHub-在线安装-blue)](https://skillhub.cn/skills/kol-content-research)
+
+定位账号→全量拉取→内涵提炼（观点/方法论），只学内涵不学风格。
 
 ## 这是什么
 
-一个可复用的 AI Agent 技能（Skill），来自真实业务场景沉淀。用于深度学习某个领域 KOL（关键意见领袖）的内容——不仅看他说了什么，更提炼他的知识体系、分析框架、核心方法论。
+一个可复用的 AI Agent 技能（Skill），来自真实业务场景沉淀，含完整执行流程、避坑清单与验证步骤。
 
-## 解决的问题
+## 快速使用
 
-- 关注某个 KOL 但只是"看"，没有系统提炼他的知识体系
-- 需要快速把一个领域专家的认知框架"搬"过来
-- 区分不了"风格"和"内涵"——学错了重点
+将本仓库放入 Agent 技能目录后，用对应触发词调用（见 SKILL.md），Agent 会自动加载并执行完整流程。
 
-## 核心方法论
+## 核心能力
 
-1. **定位账号**——从用户给的链接/名称确认账号主体
-2. **全量拉取**——拉取 KOL 的核心帖子/文章/视频列表
-3. **内涵提炼**——提炼核心观点、分析框架、方法论、知识体系
-4. **只学内涵不学风格**——KOL 的价值是认知框架，不是语言风格；语言风格另有专门的风格模仿技能
-
-## 研究维度
-
-| 维度 | 说明 |
+| 能力 | 说明 |
 |------|------|
-| 核心观点 | 该 KOL 反复强调的主张 |
-| 分析框架 | 他看待问题的角度/模型 |
-| 方法论 | 可复用的操作步骤 |
-| 知识体系 | 他对领域的整体认知结构 |
-| 互补性 | 与其他 KOL/官方内容的差异化 |
+| 账号定位与全量拉取 |
+| 观点/方法论提炼 |
+| 风格指纹提取（可选） |
 
-## 使用方式
+## 使用方式（安装）
 
-将本仓库内容放入你的 Agent 技能目录：
+- **Hermes**: 放入 `skills/` 目录
+- **Claude**: 放入 `~/.claude/skills/`
+- **其他 Agent**: 按对应 SKILL.md 格式放入技能目录
+- **SkillHub 一键安装**: https://skillhub.cn/skills/kol-content-research
 
-- **Hermes**: `skills/` 目录
-- **Claude**: `~/.claude/skills/`
-- **其他 Agent**: 按对应 SKILL.md 格式
+## 优势
 
-Agent 会在匹配触发条件时自动加载并使用。
-
-## 典型场景
-
-- "深度学习一下 XX 博主的帖子"
-- "研究下这个 KOL 的观点体系"
-- "把 XX 的知识框架整理出来"
+- 区分"学内涵"与"学风格"
+- 结构化研究产出
+- 对标账号分析
 
 ## 内容结构
 
 - `SKILL.md` — 核心技能定义（触发条件、执行流程、避坑清单）
-- `references/` — 可选参考文件（含完整案例）
+- `references/` — 可选参考文件
 
 ## 许可
 
