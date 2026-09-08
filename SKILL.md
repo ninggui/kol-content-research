@@ -19,7 +19,7 @@ description: 深度学习/研究XX博主帖子时用。定位账号→全量拉�
 
 ### 1. 定位账号
 ```python
-# 用 xiaohongshu-mcp 的 search_feeds，多关键词搜索
+# 用 xhs-mcp 的 search_feeds，多关键词搜索
 search_feeds("博主名")              # 直接搜
 search_feeds("博主名 领域关键词")   # 加领域词提高召回
 ```
