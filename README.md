@@ -1,5 +1,8 @@
 <div align="center">
 
+
+![cover](assets/cover.png)
+
 # kol-content-research
 
 **研究 KOL 的内容内涵（观点/方法论/知识体系），不学语言风格。**
